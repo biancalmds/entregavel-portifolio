@@ -3,7 +3,8 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding: 2.2rem 0;
+    flex-wrap: wrap;
+    padding: 4rem 0;
 }
 
 .conteudo-contatos h2 {
@@ -19,4 +20,42 @@
     background-color: #282A36;
     border-radius: 8px;
     padding: 2rem;
+}
+
+.conteudo-contatos input[type="text"], input[type="email"], input[type="tel"] {
+    width: 100%;
+    padding: 0.3rem 0;
+    border: 1px solid #282A36;
+    border-radius: 5px;
+    background-color: #44475A;
+    opacity: 0.8;
+}
+
+.conteudo-contatos textarea {
+    width: 100%;
+    height: 5rem;
+    background-color: #44475A;
+    opacity: 0.8;
+    border: none;
+    border-radius: 5px;
+    padding: 0.2rem 0;
+}
+
+.conteudo-contatos input::placeholder, textarea::placeholder {
+    color: #F8F8F2;
+    padding: 0 0.2rem;
+}
+
+.conteudo-contatos input[type="submit"] {
+    width: 60%;
+    padding: 1rem;
+    background-color: #44475A;
+    color: #50FA7B;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px #50FA7B;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
 }
