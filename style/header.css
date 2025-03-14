@@ -1,0 +1,25 @@
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #282A36;
+    padding: 2rem;
+}
+
+#header-ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#header h1 a {
+    color: #ff79c6;
+    font-size: 1.5rem;
+}
+
+#header-ul a {
+    margin: 0.5rem;
+    padding: 1.2rem;
+}

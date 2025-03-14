@@ -1,0 +1,44 @@
+.conteudo-projetos {
+    background-color: #282A36;
+    padding-bottom: 1.2rem;
+}
+
+.conteudo-projetos h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #50FA7B;
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.projeto-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+}
+
+.projeto-right {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+}
+
+.paragrafo-projeto {
+    width: 500px;
+    padding: 1rem;
+}
+
+.paragrafo-projeto h3 {
+    font-size: 1.1rem;
+    padding-bottom: 1rem;
+}
+
+.paragrafo-projeto span {
+    color: #ff79c6;
+}

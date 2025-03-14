@@ -1,0 +1,22 @@
+.conteudo-contatos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2.2rem 0;
+}
+
+.conteudo-contatos h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #50FA7B;
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.conteudo-contatos form {
+    width: 50%;
+    background-color: #282A36;
+    border-radius: 8px;
+    padding: 2rem;
+}
