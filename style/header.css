@@ -23,3 +23,9 @@
     margin: 0.5rem;
     padding: 1.2rem;
 }
+
+#header-ul a:hover {
+    background-color: #44475A;
+    border-radius: 0.5rem;
+    color: #ff79c6;
+}

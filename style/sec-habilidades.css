@@ -29,6 +29,13 @@
     margin: 1rem;
 }
 
+.habilidades-card:hover {
+    transform: scale(1.15);
+    transition: 0.5s;
+}
+
+
+
 .habilidades-card h3 {
     text-align: center;
     padding-top: 1rem;

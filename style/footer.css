@@ -22,7 +22,14 @@
 .redes-sociais img {
     height: 38px;
     border-radius: 50%;
-    box-shadow: 2px 2px 10px #1b1b1b;;
+    box-shadow: 2px 2px 10px #1b1b1b;
+}
+
+.redes-sociais img:hover {
+    transform: scale(1.25);
+    transition: 0.5s;
+    box-shadow: 2px 2px 10px #50FA7B;
+
 }
 
 .links-footer ul {
@@ -30,6 +37,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    
 }
 
 .links-footer ul li {
@@ -37,3 +45,15 @@
     padding-right: 0.7rem;
     padding-bottom: 0.7rem;
 }
+
+.links-footer a {
+    padding: 0.5rem;
+
+}
+
+.links-footer a:hover {
+    background-color: #44475A;
+    border-radius: 0.5rem;
+    color: #ff79c6;
+}
+
