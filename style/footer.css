@@ -3,8 +3,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     background-color: #282A36;
     padding: 2.5rem 0;
+}
+
+.conteudo-footer h3 {
+   text-align: center;
 }
 
 .redes-sociais ul {
@@ -12,6 +17,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     padding: 0.5rem;
 }
 
@@ -37,7 +43,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
+    flex-wrap: wrap;
 }
 
 .links-footer ul li {

@@ -4,15 +4,14 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    padding: 4rem 0;
+    padding: 4rem 1.2rem;
 }
 
 .conteudo-contatos h2 {
     text-align: center;
     font-size: 2rem;
     color: #50FA7B;
-    padding-top: 2.5rem;
-    padding-bottom: 2rem;
+    padding: 2.5rem 1.2rem 2rem 1.2rem;
 }
 
 .conteudo-contatos form {
@@ -38,12 +37,11 @@
     opacity: 0.8;
     border: none;
     border-radius: 5px;
-    padding: 0.2rem 0;
 }
 
 .conteudo-contatos input::placeholder, textarea::placeholder {
     color: #F8F8F2;
-    padding: 0 0.2rem;
+    padding: 1rem;
 }
 
 .conteudo-contatos input[type="submit"] {
@@ -58,4 +56,17 @@
     cursor: pointer;
     display: block;
     margin: 0 auto;
+}
+
+@media (max-width: 575px) {
+    .conteudo-contatos input[type="submit"] {
+        width: 100%;
+        padding: 0.8rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .conteudo-contatos input[type="submit"] {
+        font-size: 0.8rem;
+    }
 }

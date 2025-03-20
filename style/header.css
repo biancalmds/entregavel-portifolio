@@ -29,3 +29,30 @@
     border-radius: 0.5rem;
     color: #ff79c6;
 }
+
+@media (max-width: 885px) {
+    #header {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #header h1 {
+        padding-bottom: 1rem;
+    }
+}
+
+@media (max-width: 675px) {
+    #header-ul {
+        flex-direction: column;
+    }
+
+    #header-ul li {
+        text-align: center;
+        padding: 0.5rem;
+    }
+
+    #header-ul a {
+        margin: 0.5rem;
+        padding: 0.8rem;
+    }
+}
