@@ -58,6 +58,11 @@
     margin: 0 auto;
 }
 
+.conteudo-contatos input[type="submit"]:hover {
+    transform: scale(1.05);
+    transition: 0.7s;
+}
+
 @media (max-width: 575px) {
     .conteudo-contatos input[type="submit"] {
         width: 100%;
@@ -70,3 +75,4 @@
         font-size: 0.8rem;
     }
 }
+

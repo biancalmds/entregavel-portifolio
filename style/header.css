@@ -28,6 +28,7 @@
     background-color: #44475A;
     border-radius: 0.5rem;
     color: #ff79c6;
+    transition: 0.3s;
 }
 
 @media (max-width: 885px) {
